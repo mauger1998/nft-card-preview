@@ -77,4 +77,7 @@ main {
 .days {
     color:hsl(215, 51%, 70%);
 }
+svg {
+    margin-right:7.5px;
+}
     
