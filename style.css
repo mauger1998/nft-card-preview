@@ -15,12 +15,12 @@ main {
 
 .img {
     width:300px;
+    border-radius: 10px;
     
 }
 
 
 .card {
-    border: 1px solid black;
     border-radius: 10px;
     height:600px;
     width: 350px;
@@ -31,4 +31,7 @@ main {
 .img-container{
     display:flex;
     justify-content: center;
+    margin-top:20px;
+    margin-bottom:20px;
+    
 }
