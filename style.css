@@ -63,12 +63,26 @@ main {
     
     
 }
+footer {
+    display:flex;
+    align-items: center;
+    gap:0px;
+    margin-left:15px;
+    margin-right:0px;
+    padding:0;
+    
+}
 .foot {
     display:flex;
-    margin-bottom:25px;
-    margin-top:15px;
+    margin-bottom:0px;
+    margin-top:0px;
     gap:8px;
     align-items: center;
+    justify-content: center;
+    width:100%;
+    height:50%;
+    margin-left:0px;
+    margin-right:25px;
 }
 .prices {
     display:flex;
@@ -89,16 +103,19 @@ svg {
 }
 hr {
     border:1px solid hsl(215, 32%, 27%);
+    margin:0;
+    padding:0;
 }
 
 .first {
     color:hsl(215, 51%, 70%);
-    margin-right:5px;
     font-size: 15px;
 }
+
 .face-img {
     width:40px;
     margin-left: 0px;
+
     
 
 }
