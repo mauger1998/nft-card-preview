@@ -69,9 +69,11 @@ main {
     display:flex;
     border:1px solid white;
     justify-content: space-between;
+    align-items: center;
 }
 .eth {
     color:hsl(178, 100%, 50%);
+    font-size:15px;
 }
 
 .days {
