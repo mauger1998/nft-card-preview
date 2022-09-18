@@ -20,8 +20,10 @@ main {
 
 .card {
     border: 1px solid black;
+    border-radius: 10px;
     height:500px;
     width: 350px;
     background-color:hsl(216, 50%, 16%);
+    color:white;
     
 }
