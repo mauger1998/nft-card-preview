@@ -58,10 +58,23 @@ main {
     color:hsl(215, 51%, 70%);
     font-weight:300;
     font-size: 15px;
+    margin-right:25px;
     
 }
 .foot {
     margin-bottom:25px;
     margin-top:25px;
+}
+.prices {
+    display:flex;
+    border:1px solid white;
+    justify-content: space-between;
+}
+.eth {
+    color:hsl(178, 100%, 50%);
+}
+
+.days {
+    color:hsl(215, 51%, 70%);
 }
     
