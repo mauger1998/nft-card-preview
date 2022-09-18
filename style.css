@@ -16,6 +16,7 @@ main {
 .img {
     width:300px;
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     
 }
 
@@ -26,6 +27,7 @@ main {
     width: 350px;
     background-color:hsl(216, 50%, 16%);
     color:white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .img-container{
