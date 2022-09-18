@@ -39,12 +39,20 @@ main {
 }
 
 .text-container {
-    line-height: 2.5;
+    border:1px solid white;
+    height:250px;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
     margin-left:25px;
     margin-right:25px;
     font-family: 'Outfit', sans-serif;
 }
-}
 
 .title {
+    font-size: 20px;
+    margin-top:10px;
+}
+}
+
     
