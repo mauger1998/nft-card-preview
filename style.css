@@ -22,7 +22,7 @@ main {
 
 
 .card {
-    border-radius: 10px;
+    border-radius: 20px;
     height:600px;
     width: 350px;
     background-color:hsl(216, 50%, 16%);
@@ -39,35 +39,40 @@ main {
 }
 
 .text-container {
-    border:1px solid white;
+    
     height:250px;
     display:flex;
     flex-direction:column;
     justify-content: space-between;
-    margin-left:25px;
+    margin-left:30px;
     margin-right:25px;
     font-family: 'Outfit', sans-serif;
 }
 
 .title {
     font-size: 20px;
-    margin-top:5px;
+    margin-top:15px;
+    font-weight:500;
 }
 
 .line {
     color:hsl(215, 51%, 70%);
     font-weight:300;
-    font-size: 15px;
+    font-size: 17px;
     margin-right:25px;
+    
     
 }
 .foot {
+    display:flex;
     margin-bottom:25px;
-    margin-top:25px;
+    margin-top:15px;
+    gap:8px;
+    align-items: center;
 }
 .prices {
     display:flex;
-    border:1px solid white;
+    
     justify-content: space-between;
     align-items: center;
 }
@@ -90,5 +95,15 @@ hr {
     color:hsl(215, 51%, 70%);
     margin-right:5px;
     font-size: 15px;
+}
+.face-img {
+    width:40px;
+    margin-left: 0px;
+    
+
+}
+span {
+    display:flex;
+    gap:0;
 }
     
